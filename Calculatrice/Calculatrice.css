@@ -1,0 +1,46 @@
+﻿body
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items:center;
+}
+
+#app {
+    background-color: antiquewhite;
+    width: 400px;
+    height: 600px;
+}
+
+.row{
+    display: flex;
+    height: 100px;
+}
+
+input[type="text"],button {
+    flex: 1;
+    border: none;
+    outline: none;
+    color:black;
+}
+
+input[type="text"]{
+    background-color: antiquewhite;
+    font-size:1.7em;
+    padding: 0 20px;
+}
+
+button{
+    background-color:antiquewhite;
+    font-size:1.2em;
+}
+
+button:hover{
+    background-color:darkgray;
+    cursor:pointer; 
+
+
+}
